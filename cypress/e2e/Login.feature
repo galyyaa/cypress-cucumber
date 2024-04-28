@@ -14,7 +14,7 @@ Feature: Login
     Scenario: Login with empty fields
         Given I am on the Login Page
         Then I click on SignIn button
-        Then I should see a disabled button
+        Then I should see a disabled Login button
 
     Scenario: Login with invalid email and password
         Given I am on the Login Page

@@ -9,7 +9,7 @@ Given('I am on the Home page', () => {
     });
 });
 
-Then("5 social icons are enable", () => {
+Then("5 social icons are displayed", () => {
     cy.get('a.socials_link').should('have.length', 5);
 });
 

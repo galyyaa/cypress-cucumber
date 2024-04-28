@@ -29,8 +29,8 @@ Then('I should be on the Garage page', () => {
     cy.url().should('include', '/panel/garage');
 });
 
-Then('I should see a disabled button', () => {
-    cy.get('.btn.btn-primary').should('be.disabled');
+Then('I should see a disabled Login button', () => {
+    cy.contains('button', 'Login').should('be.disabled');
 });
 
 Then('I should see an error message {string}', (expectedText) => {

@@ -1,11 +1,11 @@
 Feature: Home Page
     As a user
     I want to be able to log to the website
-    So that I can see available icons and forms
+    So that I can see available icons and forms tp sign up and sign in
 
-    Scenario: 5 social media icons are enable
+    Scenario: 5 social media icons are displayed
         Given I am on the Home page
-        Then 5 social icons are enable
+        Then 5 social icons are displayed
 
     Scenario: Registration form is opened after click on Sign Up button
         Given I am on the Home page
